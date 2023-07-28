@@ -1,0 +1,39 @@
+Javascript ==> 1994(Netscape)
+various version in Js called as ES (Ecma Script) ECMA
+
+ECMA gives Javascript standardizations
+
+2 versions are popular ==>
+ES5 (2009) & ES6 (2015)
+
+JS can run on browser or without browser (using Node js)
+
+In 2023 you can create,
+    web application,
+    Server application,
+    Desktop application,
+    mobile application,
+    ML application 
+                    with javascript.
+
+JS is object based language (95% logic  is object)
+    Add OOP concept
+        Procedure oriented concept
+        functional programming concept
+                                        supports all features.
+
+To run JS you don't  need compiler.
+RUN => C, C++, JAVA => Compiler => test(error) => byte => run code
+RUN => PHP, Javascript => Interpreter => Run(runtime error check)
+
+To run Javascript on browser we use Javascript engine.
+Engine => (Chrome => V8), (Firefox => Spidermonkey), (safari => Nitro)
+
+To run JavaScript on browser  you need either HTML file or .js file.
+The best practice is to use .js file. cause we can apply single script file multiple html files.
+To hook this .js file with .html file we use "src" attribute in <script> element.
+
+To check code is having a error or not we use console.
+we can test the coe in console.
+Their are various Inbuild Function, object and classes in JavaScript.
+
