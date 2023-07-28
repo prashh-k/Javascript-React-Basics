@@ -57,6 +57,7 @@ console.log(arr2)
 console.log(arr1)
 
 //for Reading each and every data from array we use => forEach()
+//for reading a single record we use  ==> array[indexNumber]
 arr1.forEach(function(value, index){
     console.log(index, value)
 })
