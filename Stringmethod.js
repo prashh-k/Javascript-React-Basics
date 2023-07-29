@@ -15,7 +15,7 @@ let stringArray = string.split("i");
 console.log(stringArray);
 
 //File extension 
-let position = string.lastIndexOf("m");
+let position = string.lastIndexOf("i");
 console.log(position);
 
 //substring
