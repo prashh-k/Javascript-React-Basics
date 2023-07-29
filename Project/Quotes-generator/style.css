@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: auto;
+    background: linear-gradient(to bottom right, #FF3333 , white);
+    background-repeat: no-repeat;
+}
+
+#container {
+    background-image: linear-gradient(to top left, #FF9999, white );
+    border: 3px solid black;
+    border-radius: 17px;
+    width: 50%;
+    height: 319px;
+    align-items: center;
+    position: relative;
+    left: 24%;
+    top: 32%;
+       
+}
+#quote {
+    text-align: center;
+    font-size: 33px;
+    padding: 20px 50px;
+}
+
+#auth {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 25%;
+}
+
+#line {
+    margin: 28px 48px 28px 48px;
+    border: 1px solid black;
+}
+
+#btn {
+    border: 2px solid black;
+    background: linear-gradient(to bottom right, #FF0000 , transparent);
+    margin: 2px 0px 10px 16px;
+    height: 40px;
+    width: 100px;
+    border-radius: 9px;
+    
+    
+}
