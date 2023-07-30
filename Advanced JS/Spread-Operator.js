@@ -46,10 +46,14 @@ let Vendor = {
     pVendor : "J.K Electronics",
 }
 
-//old method to merge 
+// old method to merge 
 let prodDetails = Object.assign({}, product,Vendor);
 console.log(prodDetails);
 
-//new method to merge 
+// new method to copy a object
+prodDetails = {...product};
+console.log(prodDetails);
+
+// new method to merge 
 prodDetails = {...product, ...Vendor} ;
 console.log(prodDetails);
