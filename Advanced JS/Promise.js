@@ -8,6 +8,7 @@
 // promise defination ==> promise function
 // async ==> convert a  function promise function
 
+// syntax to  run single promise 
 async function div(){
     let a = 10;
     let b = 0;
@@ -24,7 +25,6 @@ async function div(){
 }
 
 // run ==> promise function call
-// syntax to  run single promise 
 div().then(function(output){
     console.log(output)
 }).catch(function(errorOutput){
