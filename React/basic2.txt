@@ -1,62 +1,3 @@
-React is a library of JS 
-Framework is a collection of libraries.
-Framework have an architcture.
-Framework is in every language.
-Java => spring Boot (MVC)  
-Python => DJango, Flask (MVC)
-PHP => Laravel (MVC)
-C# => >.Net (MVC)
-Javascript => Express Js (MVC) , Angular (MVVM) , Vue
-M = Model 
-Model communicate with database
-
-V = view 
-view is a part of UI
-
-C = controller
-controller is operation of communicate between model and view
-
-ReactJS is a part of view => React is library of Javascript, User Interface.
-
-Difference in React JS and other library
-1.  React works on state Mechanism
-2.  React only refresh the portion of page required to update.
-3.  React apps are single page application.
-4.  React has a synthetic events 
-5.  React has its own DOM => Virtual DOM (VDOM) (It improve application performance)
-6.  In react we only have one way data binding which we can convert to 2 way
-7.  In React we can perform se rver side rendering(SSR) and client side rendering (CSR)
-8.  React can be use with or without class logic 
-9.  React can be customized. (can change structure and behavious of React), (attach a library)
-10. Testing the React application is very simple.
-11. Upgrades of react i.e Migration from one version to other is easy and stable in react.
-
-React is Developed by Facebook.
-Uber.com, godaddy.com, awscloud, zomato.com, npmjs.com, spotify.com, netfilx.com, zee5.com uses React massively
-
-
-// Boilerplate code project 
-
-work with react for development environment we need Node JS.
-Node JS works as  a development server. 
-afer development we convert it to production. (don't need Node JS)
-
-Package ==> library, Framework, class, single file
-NPM => Node Package Manager ==> add, delete, update, published, unpublished Package
-NPX => Node Package Executor ==> add ==> run ==> delete
-
-
-To install react app bellow is a command 
-npx create-react-app project-name
-project-name => should use small case, it must not have space.
-
-Installing 
-react, ==> core library
-react-dom, ==> browser development
-react-native ==> mobile development
-react-scripts ==> runs react app, test react, build react app  
-with cra-template...
-
 
 Directory structure
 important files and folders
@@ -128,7 +69,4 @@ function => Component created by function are called functional component.
 
 
 
-
-
- 
 
