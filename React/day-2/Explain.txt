@@ -1,0 +1,69 @@
+In functional components by default some things are not present in it. 
+Beacause function are basically used only for the block of the statement.
+
+
+To install bootstrap we use following command 
+npm install bootstrap 
+
+Difference in bootstrap version 4 and 5
+ml --> me
+mr --> me
+pl --> ps 
+pr --> pe
+
+panel --> card 
+Display-1 ... Display-5
+
+To use bootstrap we import using following command in "src/index.js"  ...
+import 'bootstrap/dist/css/bootstrap.css';
+we should import bootstrap above the custom css file.
+
+
+Difference in React-js and normal css element and attribute
+class ==> className
+for ==> htmlFor
+
+In Jsx if we want to use a javascript variable we use { }. we call this JSX expression.
+
+
+Events 
+event function we make in it are expression function and arrow function(suggested)
+in button to perform event we use onClick {} attribute.
+this events are synthetic events (artificial events) we can't see them in source code.
+Because this works in VDOM 
+To check if event is True or synthetic, when we perform any operation, any event, that time when we call a function it contains a bydefault object named event
+if we print it in console we will get type of event.
+
+
+
+Ways to get data from <input>
+#using ID => this method we don't use in react because this is operation of real DOM and we are using VDOM 
+#using Hooks 
+
+
+Hooks 
+hooks => introduced in version 16.8 before this we only use class components. 
+Hooks are special function/ methods to perform complax operation in VDOM.
+3 types of hooks
+==> in-build
+    reacts own hooks
+==> custom hooks 
+    developer created hooks
+==> 3rd party hooks 
+    use with other libraries 
+hooks always starts with --> useName()
+hooks can only be used in functional components.
+we always declare hook on top.
+
+
+If you want to do data mangement in react components we always need state. 
+when ever state changes, components get re-renders
+states are mutable in nature.
+
+
+In functional components wee use hooks to handle states 
+FN components ===> hooks ===> useStates()
+
+useState() ==> in return ==> [value, updateDataFunction]
+value can be number, string , [ ] , { } , a boolean 
+updateDataFunction ==> function
