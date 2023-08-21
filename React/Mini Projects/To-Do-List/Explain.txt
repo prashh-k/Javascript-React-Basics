@@ -1,0 +1,21 @@
+Todo List 
+
+    Input(to add data)  => button (to save data)
+
+    List
+    Title
+    isCompleted (checkbox)
+    delete Todo
+    edit Todo 
+    save Todo 
+
+
+
+
+
+If we want to use loop in react we use a map method of array.
+
+when we use loop in react this loop creates runtime list, to identify this list react needs a "Key" property, to make perfect comparison between previous and new.
+In project we use key to <li> element as key - {index} here index is a unique value assigned by map function.
+
+In react for "if ... else " we use ternery operator ==> (condition) ? Truecode : Falsecode
